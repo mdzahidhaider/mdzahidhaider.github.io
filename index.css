@@ -79,7 +79,8 @@ body {
     color: var(--white);
     transition: var(--transition);
     padding: 1px 5px;
-    border-radius: 5px;
+
+    border-radius: 6px;
   }
 
   nav ul a:hover {
