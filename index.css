@@ -8,7 +8,8 @@
   --bolder-font: 900;
   --darkbgcolor : #0e0e1b;
   --blue : #e7eaf0;
-  --bg-color : #161618;
+  /* --bg-color : red; */
+  --bg-image :var(--bg-image)
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -23,6 +24,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 
 /* CSS Resets */
 * {
@@ -47,13 +49,15 @@ a:hover {
   color: var(--primary-color-dark); */
 }
 
+
 body {
   font-family: var(--font-family);
-   background: url(./Assets/icons//pexels-kasuma-1785493.jpg) !important;
+  background: url(./Assets/icons//pexels-kasuma-1785493.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
+
 
 
 /* ========== Navbar ==========  */
@@ -68,7 +72,9 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: var(--darkbgcolor);
+    /* background-color: var(--darkbgcolor); */
+    background-color: transparent;
+    opacity: 1;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     height: 80px;
   }
