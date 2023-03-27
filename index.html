@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Style sheet  -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="./Assets/icons/MyIcon.ico" />
+    <!-- Github calendar -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
+    <!-- icon CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
+    
+    <!-- Tab style  -->
+    <!-- <link rel="icon" href="Assets/icons/logo.png" /> -->
+    <title>Zahid Haider | Java Backend Developer</title>
+
+  </head>
+
+  <body oncontextmenu="return false";>
+  <body>
+    
+
+    <!-- ========== Navbar ========== -->
+    <nav id="nav" id="nav-menu">
+      <h1> <a href="#">Zahid</a> </h1>
+      <ul class="navigation" >
+        <li><a href="#" class="nav-link" class="nav-link home">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="Assets/icons/Md_Zahid_Haider_Resume.pdf" download="Md_Zahid_Haider_Resume"  onclick="window.open('https://drive.google.com/file/d/1XE1KNR45aAapIEcC308jLtBsP-7Er3X6/view?usp=share_link')">
+          Resume</a></li>
+      </ul>
+
+      <!-- Burger menu  -->
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+
+    <!-- ========== Hero Section ==========  -->
+    <section class="header-container">
+      <img
+        class="profile-image"
+        src="Assets\icons\Professional Pic.jpg.png"
+        alt="Professional Pic"
+      />
+      <h1>Hi, I'm Zahid Haider</h1>
+      <p align="center"></p><img style="margin: auto;" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width=23%>
+
+      <div class="content-text">
+        <h3>Java Backend Developer</h3>
+        <h3>
+          Always enthusiastic to learn and would love to work on new technologies.
+        </h3>
+      </div>
+      <h2 id="resume">
+        <a  href="Assets/icons/Md_Zahid_Haider_Resume.pdf" 
+            download="Md_Zahid_Haider_Resume" 
+            onclick="window.open('https://drive.google.com/file/d/1XE1KNR45aAapIEcC308jLtBsP-7Er3X6/view?usp=share_link')">
+          Resume</a>
+      </h2>
+    </section>
+
+
+    <!-- ========== About Section ========== -->
+    <section class="more-about" id="about">
+      <div id="aboutextra"></div>
+      <h2>All About Me</h2>
+      <div id="details">
+
+        <div id="details1">
+          <img  id="logoimg" src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" alt="">
+        </div>
+        <br>
+        <div id="details2">
+          <p>Aspiring <b> Java Backend Developer</b> enthusiastic to learn and explore
+            new technologies. <b>1200+ hours</b>  of practical experience building
+            numerous websites and applications. Solved more than <b>800 data
+              structure</b>  questions. Strongly interested in obtaining a backend
+            developer position to create impactful and scalable products.</p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">1200+ hrs</span>
+                <span class="about__info-name">Coding
+              </div>
+
+              <div>
+                <span class="about__info-title">800+ Que</span>
+                <span class="about__info-name"
+                  >DSA
+              </div>
+
+              <div>
+                <span class="about__info-title">100+ hrs</span>
+                <span class="about__info-name">Soft Skills
+              </div>
+
+            </div>
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">500+</span>
+                <span class="about__info-name">
+                  Git <br />
+                  Commits</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">2+</span>
+                <span class="about__info-name"
+                  >Collaborative <br />
+                  Projects</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">3+</span>
+                <span class="about__info-name">Individual<br />Projects</span>
+              </div>
+
+            </div>
+        </div>
+      </div>  
+    </section>
+    
+
+    <!-- ========== Skills section ========== -->
+
+    <section class="skills" id="skills">
+      <div id="skillsextra1"></div>
+      <div id="skillsextra"></div>
+      <h2 class="skill-header">Tech Stack</h2>
+
+      <div class="skills-wrapper">
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/java.png"
+            alt="Java"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Java</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/hibernate.png"
+            alt="hibernate"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Hibernate</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/mysql.png"
+            alt="My SQL"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>My SQL</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            style="border-radius: 50%;"
+            src="Assets/icons/springboot.png"
+            alt="Spring Boot"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Spring Boot</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/aws.png"
+            alt="AWS"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>AWS</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/maven.png"
+            alt="maven"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Maven</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/js.png"
+            alt="Javascript"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Javascript</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+              src="Assets/icons/html.png"
+              alt="HTML"
+              loading="lazy"
+              class="icon"
+            />
+            <h2>HTML</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/css.png"
+            alt="CSS"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>CSS</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/Bootstrap.png"
+            alt="Bootstrap"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Bootstrap</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/Swagger.png"
+            alt="Swagger"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Swagger</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/lombok.png"
+            alt="lombok"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Lombok</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/restful.png"
+            alt="RESTful API"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>RESTful API</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/dsa.png"
+            alt="Data Structure & Algorithm "
+            loading="lazy"
+            class="icon"
+          />
+          <h2>DSA</h2>
+        </div>
+          
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/git.png"
+            alt="Git & Github"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Git & Github</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/eclipse.png"
+            alt="Eclipse"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Eclipse</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            src="Assets/icons/vscode.png"
+            alt="VS Code"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>VS Code</h2>
+        </div>
+
+        <div class=" icon-card">
+          <img
+            style="border-radius: 50%;"
+            src="Assets/icons/netlify.png"
+            alt="Netlify"
+            loading="lazy"
+            class="icon"
+          />
+          <h2>Netlify</h2>
+        </div>
+
+        
+      </div>
+    </section>
+
+
+    
+
+
+    <!-- ========== Project Section ========== -->
+    <section class="projects" id="projects">
+      <div id="projectextra"></div>
+
+      <h2 class="projects-title">Some of my recent Projects</h2>
+
+      <div id="container-1">
+        <img class="img1" src="https://camo.githubusercontent.com/32781748864d5c487a03f05c075736bdc12a81d2db590692df2ca60d9e32dcea/68747470733a2f2f692e696d6775722e636f6d2f317968454b6f732e6a7067">
+
+        <div class="glass">
+          <h3 id="parahead">Digital Bazaar</h3>
+          <div id="para">
+            <p>It is a clone of jio mart which is an e-commerce website designed to cater the needs of day to day life.</p>
+            <img id="tech" src="https://skillicons.dev/icons?i=js,html,css,git,netlify,vscode" alt="">
+            
+          </div>
+          <a id="links" href="https://github.com/gouravtiwari04/material-sleep-1381" target="_blank" class="project-link">Code</a>
+          <a id="links" href="https://digital-bazaar.netlify.app/" target="_blank" class="project-link">Live</a>
+        </div>
+      </div>
+
+
+      <div id="container-1">
+        <img class="img1" src="https://user-images.githubusercontent.com/112765419/211043422-51e98aa7-83cc-4013-bbec-b2f1ed5be816.png">
+
+        <div class="glass">
+          <h3 id="parahead">Airtable</h3>
+          <div id="para">
+            <p>Airtable is a low-code platform for building collaborative apps.</p>
+            <img id="tech" src="https://skillicons.dev/icons?i=js,html,css,git,netlify,vscode" alt="">
+            
+          </div>
+          <a id="links" href="https://github.com/mdzahidhaider/toothsome-week-3235">Code</a>
+          <a id="links" href="https://airtable-table.netlify.app/" target="_blank" class="project-link">Live</a>
+        </div>
+      </div>
+
+      
+      
+    
+  </div>
+
+  </section>
+
+
+  <!-- ========== GitHub ========== -->
+      
+  <section id="gitSection">
+    <h2 >My Github Contributions</h2>
+    <div class="git--center">
+      
+        <!-- <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img  src="https://github-profile-trophy.vercel.app/?username=mdzahidhaider" alt="mdzahidhaider" /></a> </p><br>
+        <p align="center"><img align="center"  src="https://github-readme-stats.vercel.app/api/top-langs?username=mdzahidhaider&show_icons=true&locale=en&layout=compact" alt="mdzahidhaider" /></p><br> -->
+        
+        <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mdzahidhaider&theme=radical" /></p><br>
+        
+        <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mdzahidhaider&show_icons=true&theme=radical" width="48%" alt="mdzahidhaider" /></p><br>
+        
+        <p align="center"><img  style="border-radius: 15px; border: 2px solid;" width = 80% src="https://github-readme-activity-graph.cyclic.app/graph?username=mdzahidhaider&theme=react-dark&hide_border=true"></p><br>
+
+        <p align="center"></p><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width=100%> </p>
+    </div>
+  </section>
+
+
+    <!-- Contact section -->
+  <section class="contact" id="contact">
+      <div id="contactextra"></div>
+      
+      <div id="contactextra2"></div>
+
+      <!-- <h2>Contact</h2> -->
+      <p>Get In Touch With Me</p>
+
+    <div id="contactsec">
+
+
+        <div class="information">
+          <!-- box1 -->
+          <div class="info-box">
+              <i class="bx bxs-user"></i>
+              <span>Zahid Haider</span>
+          </div>
+          <!-- box2 -->
+          <div class="info-box">
+              <i class="bx bxs-phone"></i>
+              <span><a href="tel:+918507137211" id="contact-phone"> +91 8507137211</a></span>
+          </div>
+          <!-- box3 -->
+          <div class="info-box">
+              <i class="bx bxs-envelope"></i>
+              <span> <a href="mailto: mdzahidhaider@gmail.com" id="contact-email"> mdzahidhaider@gmail.com</a></span>
+          </div>
+          <!-- box 4 -->
+          <div class="info-box">
+              <i class="bx bxs-map"></i>
+              <span> Patna, Bihar</span>
+          </div>
+      </div>
+
+
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mpznpoyl" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="number">Number</label>
+              <input
+                type="number"
+                id="number"
+                name="sender-number"
+                placeholder="Enter Your Number"
+                class="input-field"
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <h2>
+
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </h2>
+          </form>
+        </div>
+      </div>
+
+    </div>
+    <!-- <h2 id="footer">Made by Zahid Haider  </h2> -->
+
+   
+  </section>
+
+
+    <div class="socials">
+      <a href = "mailto:mdzahidhaider@gmail.com">
+        <img
+          src="Assets/icons/email.gif"
+          alt="Email"
+          loading="lazy"
+          class="socicon"
+      />
+        </a>
+        
+        <a href = "tel:9265353136">
+          <img
+            src="Assets/icons/call.gif"
+            alt="Phone"
+            loading="lazy"
+            class="socicon"
+        />
+          </a>
+      <a id="social" href="https://www.linkedin.com/in/zahid-haider-b38a3b228/" target="_blank"
+        ><img
+          src="Assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a id="social" href="https://github.com/mdzahidhaider" target="_blank"
+        ><img src="Assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a> 
+      <a id="social" href="https://twitter.com/mdzahidhaider" target="_blank"
+        ><img src="Assets/icons/icons8-twitter-circled.gif" alt="Twitter" class="socicon"
+      /></a> 
+      </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="Assets/icons/upwardarrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+
+   
+
+
+    <!--  Website scripts -->
+  </body>
+</html>
+<script src="index.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+   src="https://github-readme-activity-graph.cyclic.app/graph?username=mdzahidhaider&theme=react-dark&hide_border=true"></script>
+</script>
+
+<script>
+  GitHubCalendar(".calendar", "mdzahidhaider");
+
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "mdzahidhaider", { responsive: true });
+
+  // Use a proxy
+  GitHubCalendar(".calendar", "mdzahidhaider", {
+     proxy (mdzahidhaider) {
+       return fetch(`https://your-proxy.com/github?user=${mdzahidhaider}`)
+     }
+  }).then(r => r.text())
+</script>
+
