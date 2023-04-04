@@ -56,7 +56,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  backdrop-filter: blur(5px); /* adjust the value as per your requirement */
 }
+
 
 
 
