@@ -583,7 +583,7 @@ body {
 
     nav ul {
       position: fixed;
-      background-color: var(--bg-color);
+      /* background-color: var(--bg-color); */
       background-color: rgb(44, 43, 43);
       flex-direction: column;
       top: 86px;
